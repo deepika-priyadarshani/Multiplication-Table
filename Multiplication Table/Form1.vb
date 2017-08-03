@@ -9,6 +9,12 @@
 
         lst1.Items.Clear()
 
+        If IsNumeric(txtStartFrom.Text) Then
+        ElseIf IsNumeric(txtEndBy.Text) Then
+        Else
+            MessageBox.Show("Please enter numbers")
+        End If
+
         startFrom = Convert.ToInt32(txtStartFrom.Text)
         endWith = Convert.ToInt32(txtEndBy.Text)
 
