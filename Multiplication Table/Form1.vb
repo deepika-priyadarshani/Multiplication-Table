@@ -28,7 +28,7 @@
         endWith = Convert.ToInt32(txtEndBy.Text)
 
         If startFrom >= endWith Then
-            MessageBox.Show("'Start From' Number should be smaller than 'End With' Number")
+            MessageBox.Show("'Start From' Number should be smaller than 'End By' Number")
             txtStartFrom.Text = ""
             txtEndBy.Text = ""
             Return
