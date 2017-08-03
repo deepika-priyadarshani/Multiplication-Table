@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class Multiplication_Table
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -80,7 +80,7 @@ Partial Class Form1
         Me.Button1.Text = "Calculate"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Form1
+        'Multiplication_Table
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -91,7 +91,7 @@ Partial Class Form1
         Me.Controls.Add(Me.txtStartFrom)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
-        Me.Name = "Form1"
+        Me.Name = "Multiplication_Table"
         Me.Text = "Multiplication Table"
         Me.ResumeLayout(False)
         Me.PerformLayout()
