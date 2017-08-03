@@ -9,10 +9,10 @@
 
         lst1.Items.Clear()
 
-        If Not IsNumeric(txtStartFrom) Then
+        If Not IsNumeric(txtStartFrom.Text) Then
             MessageBox.Show("Enter a valid number for 'Start From'")
             txtStartFrom.Text = ""
-            If Not IsNumeric(txtEndBy) Then
+            If Not IsNumeric(txtEndBy.Text) Then
                 MessageBox.Show("Enter a valid number for 'End By'")
                 txtEndBy.Text = ""
             End If
