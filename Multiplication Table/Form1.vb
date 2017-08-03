@@ -10,8 +10,15 @@
         lst1.Items.Clear()
 
         If Not IsNumeric(txtStartFrom) Then
-            MessageBox.Show("Enter a valid number")
+            MessageBox.Show("Enter a valid number for 'Start From'")
+            txtStartFrom.Text = ""
+            If Not IsNumeric(txtEndBy) Then
+                MessageBox.Show("Enter a valid number for 'End By'")
+                txtEndBy.Text = ""
+            End If
         End If
+
+
 
         startFrom = Convert.ToInt32(txtStartFrom.Text)
         endWith = Convert.ToInt32(txtEndBy.Text)
