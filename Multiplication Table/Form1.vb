@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class Multiplication_Table
 
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
@@ -16,10 +16,10 @@
             Return
         ElseIf Not IsNumeric(txtEndBy.Text) Then
             MessageBox.Show("Enter a valid number for 'End By'")
-                txtEndBy.Clear()
-                txtEndBy.Select()
-                Return
-            End If
+            txtEndBy.Clear()
+            txtEndBy.Select()
+            Return
+        End If
 
 
 
