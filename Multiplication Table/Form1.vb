@@ -12,14 +12,15 @@
         If Not IsNumeric(txtStartFrom.Text) Then
             MessageBox.Show("Enter a valid number for 'Start From'")
             txtStartFrom.Clear()
-            'txtStartFrom..SelectAll()
+            txtStartFrom.Select()
             Return
-            If Not IsNumeric(txtEndBy.Text) Then
-                MessageBox.Show("Enter a valid number for 'End By'")
-                txtEndBy.Text = ""
+        ElseIf Not IsNumeric(txtEndBy.Text) Then
+            MessageBox.Show("Enter a valid number for 'End By'")
+                txtEndBy.Clear()
+                txtEndBy.Select()
                 Return
             End If
-        End If
+
 
 
 
