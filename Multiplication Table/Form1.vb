@@ -11,10 +11,13 @@
 
         If Not IsNumeric(txtStartFrom.Text) Then
             MessageBox.Show("Enter a valid number for 'Start From'")
-            txtStartFrom.Text = ""
+            txtStartFrom.Clear()
+            'txtStartFrom..SelectAll()
+            Return
             If Not IsNumeric(txtEndBy.Text) Then
                 MessageBox.Show("Enter a valid number for 'End By'")
                 txtEndBy.Text = ""
+                Return
             End If
         End If
 
@@ -27,6 +30,7 @@
             MessageBox.Show("'Start From' Number should be smaller than 'End With' Number")
             txtStartFrom.Text = ""
             txtEndBy.Text = ""
+            Return
         End If
 
         For loopNo = startFrom To endWith
