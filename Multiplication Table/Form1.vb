@@ -7,8 +7,16 @@
         Dim Multiplication As Integer = 0
         Dim loopNo As Integer = 0
 
+        lst1.Items.Clear()
+
         startFrom = Convert.ToInt32(txtStartFrom.Text)
         endWith = Convert.ToInt32(txtEndBy.Text)
+
+        If startFrom >= endWith Then
+            MessageBox.Show("'Start From' Number should be smaller than 'End With' Number")
+            txtStartFrom.Text = ""
+            txtEndBy.Text = ""
+        End If
 
         For loopNo = startFrom To endWith
             For Multiplication = 1 To 12
@@ -20,6 +28,5 @@
 
 
     End Sub
-
 
 End Class

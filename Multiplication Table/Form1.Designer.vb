@@ -33,7 +33,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(286, 65)
+        Me.Label2.Location = New System.Drawing.Point(184, 15)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(53, 17)
         Me.Label2.TabIndex = 1
@@ -42,7 +42,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(76, 65)
+        Me.Label3.Location = New System.Drawing.Point(12, 15)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(74, 17)
         Me.Label3.TabIndex = 2
@@ -50,32 +50,32 @@ Partial Class Form1
         '
         'txtStartFrom
         '
-        Me.txtStartFrom.Location = New System.Drawing.Point(157, 65)
+        Me.txtStartFrom.Location = New System.Drawing.Point(110, 12)
         Me.txtStartFrom.Name = "txtStartFrom"
-        Me.txtStartFrom.Size = New System.Drawing.Size(100, 22)
+        Me.txtStartFrom.Size = New System.Drawing.Size(50, 22)
         Me.txtStartFrom.TabIndex = 3
         '
         'txtEndBy
         '
-        Me.txtEndBy.Location = New System.Drawing.Point(360, 65)
+        Me.txtEndBy.Location = New System.Drawing.Point(261, 12)
         Me.txtEndBy.Name = "txtEndBy"
-        Me.txtEndBy.Size = New System.Drawing.Size(100, 22)
+        Me.txtEndBy.Size = New System.Drawing.Size(50, 22)
         Me.txtEndBy.TabIndex = 4
         '
         'lst1
         '
         Me.lst1.FormattingEnabled = True
         Me.lst1.ItemHeight = 16
-        Me.lst1.Location = New System.Drawing.Point(89, 103)
+        Me.lst1.Location = New System.Drawing.Point(15, 54)
         Me.lst1.Name = "lst1"
-        Me.lst1.Size = New System.Drawing.Size(450, 580)
+        Me.lst1.Size = New System.Drawing.Size(427, 580)
         Me.lst1.TabIndex = 5
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(543, 63)
+        Me.Button1.Location = New System.Drawing.Point(335, 5)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(107, 23)
+        Me.Button1.Size = New System.Drawing.Size(107, 37)
         Me.Button1.TabIndex = 6
         Me.Button1.Text = "Calculate"
         Me.Button1.UseVisualStyleBackColor = True
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1164, 732)
+        Me.ClientSize = New System.Drawing.Size(450, 732)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.lst1)
         Me.Controls.Add(Me.txtEndBy)
